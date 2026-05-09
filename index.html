@@ -1,0 +1,285 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Nexus — Build Smarter</title>
+  <link rel="stylesheet" href="style.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Syne:wght@400;600;700;800&family=DM+Sans:ital,opsz,wght@0,9..40,300;0,9..40,400;0,9..40,500;1,9..40,300&display=swap" rel="stylesheet" />
+</head>
+<body>
+
+  <!-- NAV -->
+  <header class="nav" id="nav">
+    <div class="nav__logo">Nexus<span class="dot">.</span></div>
+    <nav class="nav__links">
+      <a href="#features">Features</a>
+      <a href="#testimonials">Reviews</a>
+      <a href="#contact">Contact</a>
+    </nav>
+    <a href="#contact" class="btn btn--sm">Get Started</a>
+    <button class="nav__burger" id="burger" aria-label="menu">
+      <span></span><span></span><span></span>
+    </button>
+  </header>
+
+  <div class="mobile-menu" id="mobileMenu">
+    <a href="#features">Features</a>
+    <a href="#testimonials">Reviews</a>
+    <a href="#contact">Contact</a>
+    <a href="#contact" class="btn btn--sm">Get Started</a>
+  </div>
+
+  <!-- HERO -->
+  <section class="hero" id="home">
+    <div class="hero__noise"></div>
+    <div class="hero__glow hero__glow--1"></div>
+    <div class="hero__glow hero__glow--2"></div>
+
+    <div class="hero__content">
+      <div class="hero__badge">✦ Now in Beta — Try Free</div>
+      <h1 class="hero__title">
+        Build products<br />
+        <span class="hero__title--accent">people love.</span>
+      </h1>
+      <p class="hero__sub">
+        Nexus gives your team the tools to design, prototype,
+        and ship beautiful software — faster than ever before.
+      </p>
+      <div class="hero__actions">
+        <a href="#contact" class="btn btn--primary">Start for Free</a>
+        <a href="#features" class="btn btn--ghost">
+          <span class="play-icon">▶</span> See how it works
+        </a>
+      </div>
+      <div class="hero__stats">
+        <div class="stat">
+          <span class="stat__num">12k+</span>
+          <span class="stat__label">Teams</span>
+        </div>
+        <div class="stat__divider"></div>
+        <div class="stat">
+          <span class="stat__num">98%</span>
+          <span class="stat__label">Satisfaction</span>
+        </div>
+        <div class="stat__divider"></div>
+        <div class="stat">
+          <span class="stat__num">4.9★</span>
+          <span class="stat__label">Rating</span>
+        </div>
+      </div>
+    </div>
+
+    <div class="hero__visual">
+      <div class="card-stack">
+        <div class="mock-card mock-card--back"></div>
+        <div class="mock-card mock-card--mid"></div>
+        <div class="mock-card mock-card--front">
+          <div class="mock-header">
+            <div class="mock-dot red"></div>
+            <div class="mock-dot yellow"></div>
+            <div class="mock-dot green"></div>
+          </div>
+          <div class="mock-bar w70"></div>
+          <div class="mock-bar w50"></div>
+          <div class="mock-chart">
+            <div class="bar" style="height:40%"></div>
+            <div class="bar" style="height:65%"></div>
+            <div class="bar" style="height:50%"></div>
+            <div class="bar" style="height:80%"></div>
+            <div class="bar" style="height:60%"></div>
+            <div class="bar active" style="height:95%"></div>
+          </div>
+          <div class="mock-row">
+            <div class="mock-avatar"></div>
+            <div class="mock-lines">
+              <div class="mock-bar w60"></div>
+              <div class="mock-bar w40"></div>
+            </div>
+            <div class="mock-badge">Live</div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- FEATURES -->
+  <section class="features" id="features">
+    <div class="container">
+      <div class="section-label">✦ What we offer</div>
+      <h2 class="section-title">Everything you need<br />to ship faster</h2>
+      <p class="section-sub">
+        Stop juggling dozens of tools. Nexus brings design, collaboration,
+        and deployment into one seamless workspace.
+      </p>
+
+      <div class="features__grid">
+
+        <div class="feature-card feature-card--wide">
+          <div class="feature-card__icon">⚡</div>
+          <h3>Blazing Fast Workflow</h3>
+          <p>Go from idea to prototype in minutes. Our drag-and-drop builder removes every bottleneck your team faces daily.</p>
+          <div class="feature-card__tag">Popular</div>
+        </div>
+
+        <div class="feature-card">
+          <div class="feature-card__icon">🎨</div>
+          <h3>Design System</h3>
+          <p>Tokens, components, and styles kept in sync. One source of truth for your entire product.</p>
+        </div>
+
+        <div class="feature-card">
+          <div class="feature-card__icon">🔗</div>
+          <h3>Integrations</h3>
+          <p>Connects with GitHub, Figma, Slack, Jira and 80+ tools your team already uses.</p>
+        </div>
+
+        <div class="feature-card">
+          <div class="feature-card__icon">🛡️</div>
+          <h3>Enterprise Security</h3>
+          <p>SOC 2 Type II certified. SSO, audit logs, and role-based access built in from day one.</p>
+        </div>
+
+        <div class="feature-card feature-card--wide feature-card--dark">
+          <div class="feature-card__icon">🤝</div>
+          <h3>Real-time Collaboration</h3>
+          <p>Your whole team works together live. No more "who has the latest file?" — everyone's always on the same page, in real time.</p>
+          <div class="feature-card__avatars">
+            <div class="av av--1">S</div>
+            <div class="av av--2">M</div>
+            <div class="av av--3">R</div>
+            <div class="av av--4">+9</div>
+          </div>
+        </div>
+
+        <div class="feature-card feature-card--accent">
+          <div class="feature-card__icon">📊</div>
+          <h3>Analytics</h3>
+          <p>Track usage, performance, and user behaviour with beautiful built-in dashboards.</p>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- TESTIMONIALS -->
+  <section class="testimonials" id="testimonials">
+    <div class="container">
+      <div class="section-label">✦ Real stories</div>
+      <h2 class="section-title">Trusted by teams<br />worldwide</h2>
+
+      <div class="testimonials__grid">
+
+        <div class="tcard">
+          <div class="tcard__stars">★★★★★</div>
+          <p class="tcard__text">"We shipped our redesign 3x faster than our previous cycle. Nexus basically paid for itself in the first week."</p>
+          <div class="tcard__author">
+            <div class="tcard__avatar">AK</div>
+            <div>
+              <div class="tcard__name">Aisha Khan</div>
+              <div class="tcard__role">Product Lead @ Stripe</div>
+            </div>
+          </div>
+        </div>
+
+        <div class="tcard tcard--featured">
+          <div class="tcard__stars">★★★★★</div>
+          <p class="tcard__text">"The collaboration features are next-level. Our remote team finally feels like we're in the same room. Genuinely can't imagine going back."</p>
+          <div class="tcard__author">
+            <div class="tcard__avatar">JL</div>
+            <div>
+              <div class="tcard__name">James Liu</div>
+              <div class="tcard__role">CTO @ Vercel</div>
+            </div>
+          </div>
+        </div>
+
+        <div class="tcard">
+          <div class="tcard__stars">★★★★★</div>
+          <p class="tcard__text">"Clean UI, fast performance, and the support team actually responds within minutes. It's everything we hoped for."</p>
+          <div class="tcard__author">
+            <div class="tcard__avatar">SR</div>
+            <div>
+              <div class="tcard__name">Sara Reyes</div>
+              <div class="tcard__role">Design Manager @ Figma</div>
+            </div>
+          </div>
+        </div>
+
+      </div>
+
+      <div class="logos-row">
+        <span>Stripe</span>
+        <span>Vercel</span>
+        <span>Figma</span>
+        <span>Notion</span>
+        <span>Linear</span>
+        <span>Loom</span>
+      </div>
+    </div>
+  </section>
+
+  <!-- CTA / CONTACT -->
+  <section class="cta" id="contact">
+    <div class="cta__inner">
+      <div class="cta__glow"></div>
+      <div class="section-label">✦ Get early access</div>
+      <h2 class="cta__title">Ready to build<br />something great?</h2>
+      <p class="cta__sub">Join 12,000+ teams already using Nexus. No credit card required.</p>
+      <div class="cta__form">
+        <input type="email" id="emailInput" placeholder="Enter your email address" />
+        <button class="btn btn--primary" id="ctaBtn">Get Free Access</button>
+      </div>
+      <p class="cta__fine">Free forever plan · No spam · Cancel anytime</p>
+      <div id="successMsg" class="success-msg" style="display:none;">
+        🎉 You're on the list! We'll be in touch soon.
+      </div>
+    </div>
+  </section>
+
+  <!-- FOOTER -->
+  <footer class="footer">
+    <div class="footer__top">
+      <div class="footer__brand">
+        <div class="nav__logo">Nexus<span class="dot">.</span></div>
+        <p>Building the future of product development, one team at a time.</p>
+      </div>
+      <div class="footer__links">
+        <div class="footer__col">
+          <h4>Product</h4>
+          <a href="#">Features</a>
+          <a href="#">Pricing</a>
+          <a href="#">Changelog</a>
+          <a href="#">Roadmap</a>
+        </div>
+        <div class="footer__col">
+          <h4>Company</h4>
+          <a href="#">About</a>
+          <a href="#">Blog</a>
+          <a href="#">Careers</a>
+          <a href="#">Press</a>
+        </div>
+        <div class="footer__col">
+          <h4>Support</h4>
+          <a href="#">Docs</a>
+          <a href="#">Community</a>
+          <a href="#">Status</a>
+          <a href="#">Contact</a>
+        </div>
+      </div>
+    </div>
+    <div class="footer__bottom">
+      <span>© 2025 Nexus Inc. All rights reserved.</span>
+      <div class="footer__socials">
+        <a href="#">Twitter</a>
+        <a href="#">GitHub</a>
+        <a href="#">LinkedIn</a>
+      </div>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
