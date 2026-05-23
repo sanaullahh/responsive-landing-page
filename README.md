@@ -4,7 +4,7 @@ A fully responsive landing page built with HTML, CSS and JavaScript. Features a 
 A clean, fully responsive landing page built with vanilla HTML, CSS, and JavaScript — submitted as **Task 1 (Beginner)** of the Nexe-Agent Frontend Developer Internship.
 
 ## 🔗 Live Demo
-https://tangerine-pavlova-0c4a77.netlify.app/
+https://responseivelandingpage.netlify.app/
 
 ## ✦ Features
 - Hero section with CTA buttons and animated UI mockup
